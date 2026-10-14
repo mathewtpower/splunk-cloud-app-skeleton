@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "My App",
+    "id": {
+      "name": "my_app",
+      "version": "0.1.0"
+    },
+    "author": [
+      {
+        "name": "Your Name"
+      }
+    ],
+    "description": "App description"
+  }
+}

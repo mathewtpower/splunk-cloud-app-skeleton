@@ -1,0 +1,33 @@
+# Splunk Local overrides & runtime artifacts (Strictly prohibited in Cloud)
+**/local/
+**/metadata/local.meta
+**/lookups/*.csv.default
+*.log
+
+# Build & packaging output
+dist/
+build/
+*.tar.gz
+*.spl
+
+# Python artifacts (if you add custom commands/inputs)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# OS and Editor junk (Instant AppInspect Cloud failure if packaged)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
